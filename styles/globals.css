@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  font-family: 'Lexend Deca';
+  font-family: 'Inter';
+  bluedark: 'hsl(233, 47%, 7%)';
+  bluedesaturated: 'hsl(244, 38% ,16%)';
+  violetsoft: 'hsl(277, 64%, 61%)';
+  white: 'hsl(0, 0%, 100%)';
+  whiteheading: 'hsla(0, 0%, 100%, 0.75)';
+  whitemain: 'hsla(0, 0%, 100%, 0.6)';
+}
+@layer base {
+  h1 {
+    @apply text-white;
+  }
+}
